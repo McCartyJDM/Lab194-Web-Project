@@ -1,0 +1,34 @@
+Thursday
+04/28/2016
+10:30
+========
+1. I made the line height a little easier to read.
+2. Also, I made the margins of the content greater so that you read
+in a column, that way it's easier on the eyes.
+3. Screwing with fonts could go on forever, but I'm settled on one thing.
+4. I need to make media queries for the site size.
+5. I've changed the background to white, as it makes it look cleaner to the viewing eye.
+6. Also, I've figure out how to embed a Google Calendar onto the site, that way whoever is in the lab can post events going on and such.
+
+Tuesday
+05/3/2016
+10:00
+========
+1. Time to add the finishing touches. I need to make the site mobile responsive.
+2. I found places where you can minify your CSS to make the page load faster. If somebody needs to see your code, you can reveal the
+beautified version so it's not just a jumbled up mess.
+3. Media queries is turning out to be harder than I initially thought.
+4. I was finally able to integrate the sidebar to the site, and I was able to embed
+a Google calendar for an example of an event calendar we could use.
+
+Thursday
+05/5/2016
+14:30
+========
+1. I looked at the Kobo eReaders (Kobo Aura) because they are supposedly more open-source than the Kindle.
+I just need something that will support ePub/mobi books, more open source book formats.
+But I also like just reading physical books.
+2. For Linux distros, I want to have either Mint, Kubuntu, Ubuntu Gnome, or ElementaryOS.
+
+KDE, Cinnamon, Gnome
+Kubuntu, KDE Neon, KDE Something or other

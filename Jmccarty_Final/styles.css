@@ -1,0 +1,214 @@
+/* --------------------------------------------------------------------------------
+
+Theme Name: 194
+Description: Built for Lab 194's website @ DTCC - Owens Campus
+Author: John McCarty
+Version: less than beta
+Release: May 2016
+
+----------------------------------------------------------------------------------- */
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+
+/* -------------------------------------------------------------------------------- */
+/*	Menu
+/* -------------------------------------------------------------------------------- */
+ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0% 0% 0% 10%;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.8);
+}
+.wrapper li {
+float: left;
+padding:0px 0px 0px 20px;
+}
+.wrapper img{
+ float: left;
+ height: 3%;
+ width: 3%;
+ padding: 0;
+ margin:0 0 0 -30px;
+}
+.wrapper img:hover{
+  cursor: pointer;
+  height:30%;
+  width: 30%;
+}
+a{
+color: #A55858;
+text-decoration: none;
+}
+.resources a{
+  color: #A55858;
+  text-decoration: none;
+  display:block;
+  margin-left: 15%;
+  margin-right: 18%;
+  margin-bottom: 20px;
+}
+.wrapper li a {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+li a:hover{
+background-color: rgba(0, 0, 0, 0.6);
+/*transform: scale(1.1);*/
+transform: translateY(2px);
+}
+a:hover{
+color:#A53000;
+}
+/* -------------------------------------------------------------------------------- */
+/*	Body
+/* -------------------------------------------------------------------------------- */
+* {
+    box-sizing: border-box;
+}
+body{
+ margin: 0;
+ font-family: 'Ubuntu', sans-serif;
+ text-align: left;
+ background-color:white;
+}
+p{
+font-family:'Courier New';
+font-size: 20px;
+font-weight:normal;
+line-height: 1.5;
+text-align:justify;
+margin: 0% 0% 30px 15%;
+width: 50%;
+}
+textarea{
+  margin-left: 15%;
+  margin-bottom: 20px;
+  display: block;
+  resize: none;
+  border-style: solid;
+  border-width:medium;
+  border-color: rgba(255, 0, 0, 0.5);
+  font-family: "Ubuntu";
+}
+img{
+width: 50%;
+height: 50%;
+margin: 10px 0px 30px 15%;
+border-radius: 7%;
+}
+h1{
+background-color:#434343;
+padding: 15px 0px 20px 50px;
+margin: 0;
+text-align: left;
+color:white;
+position:inherit;
+}
+h2{
+font-family: 'Roboto Slab', serif;
+font-size: 28px;
+color: #666;
+margin: 80px 0px 0px 15%;
+display: block;
+}
+.video{
+  clear:both;
+}
+h3{
+font-family: 'Roboto Slab', serif;
+font-weight: bold;
+color: #F1C232;
+margin: 0px 0px 0px 15%;
+}
+h3 span{
+font-size: 18px;
+font-weight: bold;
+margin: 0px 0px 0px 50px;
+}
+span{
+color:#F1C232;
+}
+/*iframe{
+position: relative;
+height:100%;
+float: right;
+padding-left: 25%;
+background-color: #333;
+} */
+.sidebar{
+float: right;
+position:fixed;
+right:0; top:46px; bottom: auto;
+height:100%;
+width: 400px;
+background-color: #888;
+display: block;
+margin:0;
+box-shadow: 0 1px 3px rgba(0,0,0,0.8);
+}
+.sidebar h2{
+  color: #F1C232;
+  font-family:'Ubuntu';
+  font-size: 30px;
+  font-weight: 700;
+  cursor:pointer;
+  display: inline-block;
+}
+/* -------------------------------------------------------------------------------- */
+/*	Responsive
+/* -------------------------------------------------------------------------------- */
+@media screen and (max-width: 1242px) { /* Width for Tablets or half screen*/
+  ul {
+    list-style-type: none;
+    margin:0;
+    padding: 0% 0% 0% 10%;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+  }
+  .sidebar{
+    position: static;
+    display: inline-block;
+    float:none;
+    width:100%;
+  }
+  .sidebar h2{
+  display:block;
+    margin-left:30%;
+  }
+  iframe{
+    margin-left: 30%;
+  position: sticky;
+  }
+  p{
+    width:75%;
+    margin-left:10%;
+  }
+}
+@media screen and (max-width: 800px) {
+/* Width for Tablets or half screen*/
+  .wrapper li a{
+    font-size: 10px;
+  }
+  .sidebar h2{
+    margin-left:10%;
+  }
+  iframe{
+    margin-left: 10%;
+  position: sticky;
+  }
+}

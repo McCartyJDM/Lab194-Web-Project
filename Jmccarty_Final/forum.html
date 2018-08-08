@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>The Forum</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="wrapper">
+      <ul>
+        <img src="img/thumb.png" alt="" onmouseover="this.src='img/trooperfall.gif'; PlaySound('dual-fates')"
+        onmouseout="StopSound('dual-fates'); this.src='img/thumb.png'"/>
+        <li><a href="index.html">Lab<span>194</span></a></li>
+        <li><a href="forum.html">Forum</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="tutorials.html">Tutorials</a></li>
+        <li><a href="lab.html">The Lab</a></li>
+      </ul>
+  </div>
+    <h2>Join the discussion!</h2>
+    <img src="img/forum1.jpg" alt="The forum theme." />
+    <p>Make a post or join an already active thread</p>
+    <textarea name="Username" rows="1" cols="40" autofocus="autofocus"
+      maxlength="20" placeholder="Enter your Username"></textarea>
+    <textarea name="name" rows="8" cols="40" placeholder="Spit it out, young padawan..."></textarea>
+    <audio id="dual-fates" preload="auto">
+<source src="Wilhelm_Scream.ogg"></source>
+    </audio>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!--	Audio script for Wilhelm Scream                                              -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->    
+    <script type="text/javascript">
+    function PlaySound(soundobj) {
+  var thissound=document.getElementById(soundobj);
+  thissound.play();
+}
+function StopSound(soundobj) {
+  var thissound=document.getElementById(soundobj);
+  thissound.pause();
+  thissound.currentTime = 0;
+}
+    </script>
+    <div class="sidebar">
+        <h2>Lab Events</h2>
+      <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=600&amp;wkst=2&amp;bgcolor=%23ffcc00&amp;src=dtcc.edu_sju3onob4jes9vo41875v153b8%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=America%2FNew_York" style="border-width:0" width="400" height="500" frameborder="0" scrolling="no"></iframe>
+    </div>
+</body>
+</html>
